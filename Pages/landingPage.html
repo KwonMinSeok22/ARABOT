@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="KR">
+
+<head>
+    <title>Ara Website</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Josefin+Sans&family=Jua&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Josefin+Sans&display=swap" rel="stylesheet">
+</head>
+<div>
+    <header>
+        <h1>Ara DashBorad</h1>
+        <img class="avatar" src="https://cdn.discordapp.com/avatars/877221117046190090/2cfe4b0b7152adef03a29fa3a4df63ef.png?size=128"
+            alt="Ara Avatar">
+        <h3>자기소개</h3>
+        <p class="description">설명</p>
+    </header>
+
+    <body>
+        <div class="buttons">
+            <button class="btn">대시보드</button>
+            <button class="btn" onclick="location.href = 'http://localhost:3000/commands'">명령어</button>
+            <button class="btn" onclick="location.href = 'https://discord.gg/inea'">서포트</button>
+            <button class="btn" onclick="location.href = 'https://discord.com/api/oauth2/authorize?client_id=877221117046190090&permissions=8&scope=bot%20applications.commands'"> 초대하기</button>
+        </div>
+    </body>
+</div>
+
+<style>
+    .btn {
+        background-color: blueviolet;
+        color: white;
+        font-size: 23px;
+        transition-duration: 0.5s;
+        border: 2px solid blueviolet;
+        border-radius: 8px;
+        font-family: 'Jua', sans-serif;
+    }
+    .buttons {
+        text-align: center;
+    }
+    .btn:hover {
+        background-color:violet;
+        color:white;
+        cursor:pointer;
+    }
+    h2 {
+        font-size: 145%;
+        font-family: 'Jua', sans-serif;
+        color: black;
+        text-align: center;
+    }
+    h1 {
+        font-family: 'Jua', sans-serif;
+        text-align: center;
+        font-size: 300%;
+        color: black;
+    }
+    .description {
+        color: black;
+        text-align: center;
+        font-family: 'Jua', sans-serif;
+        font-size: 145%;
+    }
+    .avatar {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border: 4px solid blueviolet;
+        border-radius: 100%;
+        width: 20%;
+        height: 20%;
+        -webkit-transform: -webkit-transform .8s ease-in-out;
+        transform: transform .8s ease-in-out;
+    }
+    .avatar:hover {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+    p,
+    span {
+        color:black;
+    }
+    body {
+        background-color: white;
+    }
+    h3 {
+        font-size: 155%;
+        font-family: 'Jua', sans-serif;
+        color: black;
+        text-align: center;
+    }
+    hr {
+        border-color: blueviolet;
+    }
+</style>
+
+</html>
